@@ -1,0 +1,97 @@
+body {
+    font-family: sans-serif;
+    background-color: #171717;
+    color: #a3a3a3;
+    font-size: 16px;
+}
+.site {
+    position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  border-radius: 15px;
+  border: #3f3f3f 1px solid;
+  padding: 20px;
+  padding-left: 40px;
+  padding-right: 50px;
+  padding-bottom: 45px
+}
+h1 {
+    color: white;
+}
+button {
+    border: none;
+    background-color: #193925;
+    padding: 8px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 12px;
+    color: #22C551;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.125s
+}
+button:hover {
+    box-shadow: inset 0 0 2px #22C551FF;
+    transition: 0.125s;
+}
+label {
+ padding-left: 10px
+}
+img {
+    border-radius: 10px;
+}
+input[type=text] {
+    border: none;
+    background-color: #2a2a2a;
+    padding-left: 15px;
+    padding: 8px;
+    border-radius: 15px;
+    font-size: 16px;
+    color: #bbbbbb;
+}
+input[type=text]::placeholder {
+    color: #777777
+}
+input[type=text]:hover {
+    outline: solid 2px #5468ff;
+}
+input[type=text]:focus {
+    outline: solid 2px #5468ff;
+    background-color: #2a2a2a;
+}
+.stoplookingthroughmysourcecodeyoufreak {
+    border-left: #3f3f3f 1px solid;
+    float: left;
+    margin-left: 10px;
+    
+}
+.evil {
+    background-color: #422020;
+    color: #E44444;
+    transition: 0.125s
+}
+.evil:hover {
+    box-shadow: inset 0 0 2px #E44444;
+    transition: 0.125s;
+}
+.share {
+    background-color: #174773;
+    color: #66A9F6;
+    transition: 0.125s
+}
+.share:hover {
+    box-shadow: inset 0 0 2px #4497E4;
+    transition: 0.125s;
+}
+.neutral {
+    background-color: #2d2d3f;
+    color: #5f5f9f;
+    transition: 0.125s
+}
+.neutral:hover {
+    box-shadow: inset 0 0 2px #5f5f9f;
+    transition: 0.125s;
+}

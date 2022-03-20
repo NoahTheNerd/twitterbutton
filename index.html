@@ -1,0 +1,54 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="site">
+            <div id="1">
+
+                <h1>Heads up!</h1>
+                <p>Links from this generator only work when<br>clicked <b>on twitter.</b> They will not work when put in<br>your browser and must be clicked from a tweet.</p>
+                <button style="padding-left: 40px; padding-right: 40px;" onclick="go()">Got it!</button>
+                <p>Made by ixNoah!</p>
+
+            </div>
+            <div id="2" hidden>
+                <h1>Twitter Buttons</h1>
+                <p>Made by ixNoah!</p>
+                <p>Configure settings however you want and share the link!</p>
+                <div>
+                    <div id="popupstuff" style="float: left;">
+                        <input type="text" placeholder="Title" id="title">
+                        <br><br>
+                        <input type="text" placeholder="Message" id="message">
+                        <br><br>
+                        <input type="text" placeholder="Image URL" id="previmg">
+                        <br><br>
+                        <input type="text" placeholder="Button Text" id="buttontxt">
+                        </div> <!--sincere apologies for those having to see this \/ -->
+                        
+                        <div class="stoplookingthroughmysourcecodeyoufreak"><br><br><br><br><br><br><br><br><br><br><br></div>
+                        <div id="tweetstuff" style="float: right; padding-left: 10px;">
+                            <input type="text" placeholder="Tweet Text" id="twttxt">
+                            <br><br>
+                            <button style="width:100%" onclick="generate()">Generate</button>
+                            <br><br>
+                            <button style="width:100%;" class="evil" onclick="location.reload()">Destroy</button>
+                            <br><br>
+                            <button style="width:100%" class="neutral" onclick="window.open(`https://github.com/noahthenerd/twitterbutton`, '_blank').focus();">View GitHub</button>
+                            </div>
+                        <br><br>
+                        <br>
+                </div>
+            </div>
+            <div id="3" hidden>
+                <h1>All done!</h1>
+                <p>Share your masterpiece with the world today!</p>
+                <button class="share" onclick="window.open(`${newlink}`, `_blank`)">Tweet</button>
+                <p>Made by ixNoah!</p>
+            </div>
+        </div>
+        
+        <script src="script.js"></script>
+    </body>
+</html>
